@@ -24,4 +24,4 @@ Author: Carlos Anselmi carlosanselmi2@gmail.com
 * `Typing`
 
 ### SCREENCAPTURE
-![Una imagen cualquiera](https://github.com/Alzheimer10/HTML/blob/master/screencapture.png?raw=true "De 150 x 150 píxeles")
+![Una imagen cualquiera](https://github.com/Alzheimer10/theme-dark-minimal/blob/master/screencapture.png?raw=true "De 150 x 150 píxeles")

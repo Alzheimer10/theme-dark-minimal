@@ -1,0 +1,20 @@
+footer{
+	text-aling: center;
+	color: white;
+	width: 100%;
+    padding: 6px;
+	& h1,& h2,& h3,& h4,& h5,& h6,& .h1,& .h2,& .h3,& .h4,& .h5,& .h6,& p,& a,& span {
+		color: $color-font;
+	}
+	&:before{
+		content: "";
+		background-color: $color-primary;
+	    position: absolute;
+	    width: 49%;
+	    height: 1px;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    margin: auto;
+	}
+}

@@ -1,0 +1,66 @@
+#skills{
+	margin-top: 50px;
+}
+.skillbar {
+  font-family: 'Open Sans', 'sans-serif';
+	position:relative;
+	display:block;
+	margin-bottom:0px;
+	width:100%;
+	background:transparent;
+	height:35px;
+	margin-top: 10px;
+	@include border-radius(3px);
+	@include transition(0.4s linear);
+
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+
+	& .skillbar-title {
+		text-align: initial;
+	    font-size: 1.2em !important;
+	    font-family: 'Arvo', serif;
+	    margin: 0;
+		& span {
+			display:block;
+			background:rgba(0, 0, 0, 0.1);
+			padding:0 20px;
+			height:35px;
+			line-height:35px;
+
+			-webkit-border-bottom-left-radius:3px;
+			-moz-border-radius-bottomleft:3px;
+			border-bottom-left-radius:3px;
+
+			-webkit-border-top-left-radius:3px;
+			-moz-border-radius-topleft:3px;
+			border-top-left-radius:3px;
+		}
+	}
+	& .skillbar-bar {
+		height:3px;
+		width:0px;
+		background: $color-primary;
+		@include border-radius(3px);
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+	}
+	& .skill-bar-percent {
+		position:absolute;
+		right:10px;
+		top:0;
+		font-size:11px;
+		height:35px;
+		line-height:35px;
+		color:$color-font;
+	    @include border-radius(12px);
+	    padding: 4px;
+	    height: auto;
+	    line-height: normal;
+	    background: $color-black-2;
+	}
+}
+

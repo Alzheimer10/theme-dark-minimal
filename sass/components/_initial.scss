@@ -1,0 +1,44 @@
+$bottom-height: 31px;
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body{ 
+	background-color: $bg-body;
+	margin: 0;
+    margin-bottom: $bottom-height;
+}
+
+a{
+	color: $color-font;
+	&:hover, &:focus{ text-decoration: none; color:$color-font-hover; }
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	color: $color-font;
+}
+p, span{
+	color: $color-font-secondary; 
+}
+
+ul{
+	list-style: none;
+}
+
+.text-block{ display: block }
+
+.color-primary{
+	color: $color-primary;
+	&:hover{
+		color: $color-primary-hover;
+	}
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: $bottom-height;
+}

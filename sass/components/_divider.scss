@@ -1,0 +1,25 @@
+@mixin divider($margin-top,$margin-bottom) {
+	margin-top:$margin-top; 
+	margin-bottom: $margin-bottom;
+	border-color: transparent;
+	clear: both;
+	  &:before, &:after {
+	    content: " ";
+	    display: table; }
+	  &:after {
+	    clear: both; }
+}
+hr{
+	&.ac-divider-10{
+		@include divider(10px,10px);
+	}
+	&.ac-divider-20{
+		@include divider(20px,20px);
+	}
+	&.ac-divider-30{
+		@include divider(30px,30px);
+	}
+	&.ac-divider-40{
+		@include divider(40px,40px);
+	}
+}

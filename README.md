@@ -7,7 +7,7 @@
 <img src="https://github.com/Alzheimer10/theme-dark-minimal/blob/master/img/icon-vendor/JQUERY.png?raw=true" width="10%">
 </p>
 
-# PLANTILLA HTML-5 - BOOTSTRAP-3
+# TEMPLATE HTML-5 - BOOTSTRAP-3
 Theme dark minimal 04
 Author: Carlos Anselmi carlosanselmi2@gmail.com
 

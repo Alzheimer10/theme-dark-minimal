@@ -97,7 +97,7 @@
 			<!-- SECTIONS -->
 			<div class="sessions">
 				<!-- SECTION-1 -->
-				<div class="ac-container-10 text-center">
+				<div class="ac-container-10 text-center reveal-efect">
 					<hr class="ac-divider-40">
 					<h1 class="fs-5 f-line">Dark-Minimal</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum porro maxime, doloremque explicabo ipsam sequi odio mollitia officia. Voluptates voluptatibus cumque illum obcaecati tempore laboriosam optio ex ab sapiente, doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error saepe itaque nemo pariatur assumenda maxime libero cum accusantium sequi, consequatur odit quos. Illo voluptatum, quaerat et, dicta sed mollitia ducimus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste voluptatum, accusamus, velit mollitia repudiandae perspiciatis inventore non in recusandae nulla quasi assumenda nisi omnis molestiae fugiat. Quo similique, enim possimus?</p>
@@ -106,9 +106,9 @@
 				<!-- END-SECTION-1 -->
 
 				<!-- SECTION-2 -->
-				<div class="ac-container-10 text-center">
+				<div class="ac-container-10 text-center reveal-efect">
 					<div class="row">
-						<div class="col-xs-12 col-sm-6">
+						<div class="col-xs-12 col-sm-6 reveal-efect-left">
 							<h1 class="text-left highlight-bottom-1">section</h1>
 							<div class="text-right container-blog">
 								<div class="img-container img-container-l">
@@ -118,7 +118,7 @@
 								<p>Lorem ipsum dolor sit amet, <span class="highlight">consectetur adipisicing elit.</span> Dolor cupiditate voluptate nihil sed placeat cum vero maxime, quis perferendis reprehenderit, velit non! Sit labore impedit, officia rerum quas soluta nesciunt!</p>
 							</div>
 						</div>
-						<div class="col-xs-12 col-sm-6">
+						<div class="col-xs-12 col-sm-6 reveal-efect-right">
 							<h1 class="text-right highlight-bottom-1">section</h1>
 							<div class="text-left container-blog">
 								<div class="img-container img-container-r">
@@ -133,9 +133,9 @@
 				<!-- END-SECTION-2 -->
 
 				<!-- SECTION-3 -->
-				<div class="ac-container-10 text-center">
+				<div class="ac-container-10 text-center reveal-efect">
 					<div class="row" id="skills">
-						<div class="col-xs-12 col-sm-6">
+						<div class="col-xs-12 col-sm-6 reveal-efect-left">
 							<div class="blog-card alt card-2">
 								<div class="photo photo3"></div>
 								<div class="details display-t">
@@ -191,7 +191,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xs-12 col-sm-6">
+						<div class="col-xs-12 col-sm-6 reveal-efect-right">
 							<div class="blog-card card-2">
 								<div class="photo photo4"></div>
 								<div class="details display-t">
@@ -254,7 +254,7 @@
 				<!-- END-SECTION-3 -->
 
 				<!-- SECTION-4 -->
-				<div class="ac-container-10">
+				<div class="ac-container-10 ">
 					<h1 class="fs-5 f-line text-center">GALLERY</h1>
 					<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, asperiores deleniti debitis libero adipisci iure impedit enim ratione. Ipsum hic, inventore adipisci voluptas voluptatibus facilis eaque labore fugit velit dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sapiente rerum atque expedita vero facilis veritatis doloribus voluptate dolore, blanditiis enim suscipit et iusto quo aliquid modi minima ipsa, deleniti.</p>
 					<ul id="container-grid-img" class="tiles-wrap animated">
@@ -427,7 +427,11 @@
 				</div>
 			</footer>
 			<!-- END-FOOTER -->
-
+	<style>
+		.reveal-efect-left,.reveal-efect-right,.reveal-efect{
+			overflow: hidden;
+		}
+	</style>
 		</div>
 			<!-- botton-gotop -->
 			<div class="ac-gototop gototop-square" onclick="$('body').animatescroll({scrollSpeed:1000});">
@@ -450,6 +454,8 @@
 		<!-- grid-img -->
 		<script src="vendor/imagesloaded/wookmark.js"></script>
   		<script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+		<!-- scrollreveal  -->
+		<script src="vendor/scrollreveal/scrollreveal.min.js"></script>
 		<!-- Main -->
 		<script src="js/main.js"></script>
   		

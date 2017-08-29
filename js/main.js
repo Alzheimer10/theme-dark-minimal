@@ -106,6 +106,15 @@
 		});
 	};
 
+	var scrollreveal = function(){
+		// JavaScript
+		window.sr = ScrollReveal({ reset: true,mobile: false,duration: 1000});
+		sr.reveal('.reveal-efect',{duration: 1000,origin: 'botton'});
+		sr.reveal('.reveal-efect-left',{ duration: 1000,origin: 'left' });
+		sr.reveal('.reveal-efect-right',{ duration: 1000 ,origin: 'right'});
+		sr.reveal('#container-grid-img li a img',{ duration: 1500});
+	}
+
 	$(function(){
 		skillbar('skills');
 		goToTop();
@@ -113,6 +122,7 @@
 		parallaxWindow();
 		slideOut();
 		grid_img();
+		scrollreveal()
 	});
 
 

@@ -1,13 +1,13 @@
 ::-webkit-selection {
-  color: $color-white;
-  background: $color-primary;
+  color: $color-selection;
+  background: $bg-selection;
 }
 
 ::-moz-selection {
-  color: $color-white;
-  background: $color-primary;
+  color: $color-selection;
+  background: $bg-selection;
 }
 ::selection {
-  color: $color-white;
-  background: $color-primary;
+  color: $color-selection;
+  background: $bg-selection;
 }

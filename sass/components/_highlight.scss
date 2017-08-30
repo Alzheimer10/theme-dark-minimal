@@ -1,27 +1,27 @@
 .highlight {
-    background-color: $color-primary;
-    color: $color-white;
+    background-color: $bg-highlight;
+    color: $color-highlight;
     padding: 0 8px;
     @include border-radius(2px);
 }
 
 .highlight-bottom-1 {
-	border-bottom: 1px solid $color-primary;
+	border-bottom: 1px solid $bg-highlight;
 }
 .highlight-bottom-2 {
-	border-bottom: 1px solid $color-primary;
+	border-bottom: 1px solid $bg-highlight;
 }
 .highlight-bottom-3 {
-	border-bottom: 1px solid $color-primary;
+	border-bottom: 1px solid $bg-highlight;
 }
 
 
 .highlight-top-1 {
-	border-top: 1px solid $color-primary;
+	border-top: 1px solid $bg-highlight;
 }
 .highlight-top-2 {
-	border-top: 1px solid $color-primary;
+	border-top: 1px solid $bg-highlight;
 }
 .highlight-top-3 {
-	border-top: 1px solid $color-primary;
+	border-top: 1px solid $bg-highlight;
 }

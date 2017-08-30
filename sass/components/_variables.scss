@@ -22,8 +22,9 @@ $bg-body: $color-black;
 $bg-loader: $color-black;
 $color-loader: $color-primary;
 
-
-
+//selection
+$bg-selection: $color-primary;
+$color-selection: $color-white;
 
 //link_efects
 $le-bg-color: $color-primary;
@@ -31,6 +32,9 @@ $le-bg-color-hover: $color-primary-hover;
 $le-color: $color-white;
 $le-color-hover: $color-white;
 
+//highlight
+$bg-highlight: $color-primary;
+$color-highlight: $color-white;
 
 
 //** Deprecated `$screen-xs` as of v3.0.1

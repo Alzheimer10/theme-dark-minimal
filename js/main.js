@@ -54,6 +54,7 @@
 		});
 
 	}
+	
 	// Loading page
 	var loaderPage = function() {
 		$('body').removeClass('ac-scroll-loader');
